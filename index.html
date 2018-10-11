@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Title </title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+
+        .main {
+            height: 100%;
+            width: 100%;
+        }
+
+        /*        top*/
+        .top {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: absolute;
+        }
+
+        .right {
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            position: absolute;
+            right: 0;
+        }
+
+        /*        bottom*/
+        .bottom {
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .left {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        /*        middle complex part*/
+        .middle {
+            width: 450px;
+            height: 450px;
+            background-color: white;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        /*        middle top*/
+        .mtop {
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            position: absolute;
+        }
+/*        mtop inside*/
+        .mtop1 {
+            height: 50px;
+            width: 50px;
+            background-color: darkslateblue;
+            position: absolute;
+        }
+        .mbottom1 {
+            height: 50px;
+            width: 50px;
+            background-color: brown;
+            position: absolute;
+            bottom:0;
+        }
+        .mleft1 {
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .mright1 {
+            height: 50px;
+            width: 50px;
+            background-color: grey;
+            position: absolute;
+            right: 0;
+        }
+        .mmiddle1 {
+            height: 50px;
+            width: 50px;
+            background-color: lightgreen;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right: 0;
+        }
+/*        mright*/
+        .mright {
+            height: 150px;
+            width: 150px;
+            background-color: pink;
+            position: absolute;
+            right: 0;
+        }
+
+        .mmiddle {
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+        }
+
+        .mbottom {
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .mleft {
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <!--   top box-->
+        <div class="top">
+
+        </div>
+        <!--    top right box-->
+        <div class="right">
+
+        </div>
+        <!--        middle box -->
+        <div class="middle">
+            <div class="mtop">
+                <!--               mtop inside part-->
+                <div class="mtop1">
+                </div>
+                <div class="mright1"></div>
+                <div class="mmiddle1"></div>
+                <div class="mbottom1"></div>
+                <div class="mleft1"></div>
+            </div>
+            <div class="mright">
+                   <!--               mtop inside part-->
+                <div class="mtop1">
+                </div>
+                <div class="mright1"></div>
+                <div class="mmiddle1"></div>
+                <div class="mbottom1"></div>
+                <div class="mleft1"></div>
+            </div>
+            <div class="mmiddle">
+                   <!--               mtop inside part-->
+                <div class="mtop1">
+                </div>
+                <div class="mright1"></div>
+                <div class="mmiddle1"></div>
+                <div class="mbottom1"></div>
+                <div class="mleft1"></div>
+            </div>
+            <div class="mbottom">
+                   <!--               mtop inside part-->
+                <div class="mtop1">
+                </div>
+                <div class="mright1"></div>
+                <div class="mmiddle1"></div>
+                <div class="mbottom1"></div>
+                <div class="mleft1"></div>
+            </div>
+            <div class="mleft">
+                   <!--               mtop inside part-->
+                <div class="mtop1">
+                </div>
+                <div class="mright1"></div>
+                <div class="mmiddle1"></div>
+                <div class="mbottom1"></div>
+                <div class="mleft1"></div>
+            </div>
+        </div>
+        <!--   bottom left box-->
+        <div class="bottom">
+
+        </div>
+        <!--   left box-->
+        <div class="left">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
